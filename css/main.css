@@ -1,0 +1,8 @@
+.link img {
+  filter: invert(0); /* Oq rasm holati */
+  transition: filter 0.3s ease;
+}
+
+.link:hover img {
+  filter: invert(1); /* Qora rasm holati */
+}

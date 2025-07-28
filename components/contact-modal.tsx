@@ -100,7 +100,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             <div className="mb-6">
               <label htmlFor="activity">
                 <h3 className="text-base lg:text-lg font-normal leading-[100%] mb-1.25 ml-4">
-                  Qaysi yo&apos;nalishda faoliy&apos;at ko'rsatyabsiz
+                  Qaysi yo&apos;nalishda faoliyat ko&apos;rsatyabsiz
                 </h3>
                 <input
                   id="activity"

@@ -382,6 +382,7 @@ export default function Home() {
         </div>
       </footer >
 
+{/* wtf comment */}
       <ContactModal isOpen={isModalOpen} onClose={closeModal} />
     </>
   )

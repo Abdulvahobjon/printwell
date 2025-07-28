@@ -5,7 +5,7 @@ import Image from "next/image"
 import 'swiper/css';
 
 export default function PartnersSlider() {
-  const swiperRef = useRef<any>(null)
+  const swiperRef = useRef(null)
 
   useEffect(() => {
     const loadSwiper = async () => {

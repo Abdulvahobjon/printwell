@@ -4,7 +4,6 @@ import Image from "next/image"
 
 export default function PartnersSlider() {
   const brandLogos = [
-    "/img/icons/brends(1).svg",
     "/img/icons/brends(2).svg",
     "/img/icons/brends(3).svg",
     "/img/icons/brends(4).svg",

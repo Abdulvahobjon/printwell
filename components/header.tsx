@@ -24,27 +24,27 @@ export default function Header() {
           </Link>
           <ul className="text-white xl:flex hidden gap-8">
             <li>
-              <Link className="text-base font-normal leading-[100%] hover:opacity-50 uppercase" href="#">
+              <Link href="/#service" className="text-base font-normal leading-[100%] hover:opacity-50 uppercase">
                 Xizmatlarimiz
               </Link>
             </li>
             <li>
-              <Link className="text-base font-normal leading-[100%] hover:opacity-50 uppercase" href="#">
+              <Link href="/#weWorks" className="text-base font-normal leading-[100%] hover:opacity-50 uppercase">
                 Bizning ishlarimiz
               </Link>
             </li>
             <li>
-              <Link className="text-base font-normal leading-[100%] hover:opacity-50 uppercase" href="#">
+              <Link href="/#partners" className="text-base font-normal leading-[100%] hover:opacity-50 uppercase">
                 Hamkorlarimiz
               </Link>
             </li>
             <li>
-              <Link className="text-base font-normal leading-[100%] hover:opacity-50 uppercase" href="#">
+              <Link href="/#about" className="text-base font-normal leading-[100%] hover:opacity-50 uppercase">
                 Biz haqimizda
               </Link>
             </li>
             <li>
-              <Link className="text-base font-normal leading-[100%] hover:opacity-50 uppercase" href="#">
+              <Link href="/#contact" className="text-base font-normal leading-[100%] hover:opacity-50 uppercase">
                 Aloqa
               </Link>
             </li>
@@ -128,27 +128,27 @@ export default function Header() {
         </div>
         <ul className="flex flex-col gap-5">
           <li>
-            <Link className="text-base font-normal uppercase" href="#" onClick={closeMobileMenu}>
+            <Link href="/#service" className="text-base font-normal uppercase"  onClick={closeMobileMenu}>
               Xizmatlarimiz
             </Link>
           </li>
           <li>
-            <Link className="text-base font-normal uppercase" href="#" onClick={closeMobileMenu}>
+            <Link href="/#weWorks" className="text-base font-normal uppercase"  onClick={closeMobileMenu}>
               Bizning ishlarimiz
             </Link>
           </li>
           <li>
-            <Link className="text-base font-normal uppercase" href="#" onClick={closeMobileMenu}>
+            <Link href="/#partners" className="text-base font-normal uppercase"  onClick={closeMobileMenu}>
               Hamkorlarimiz
             </Link>
           </li>
           <li>
-            <Link className="text-base font-normal uppercase" href="#" onClick={closeMobileMenu}>
+            <Link href="/#about" className="text-base font-normal uppercase"  onClick={closeMobileMenu}>
               Biz haqimizda
             </Link>
           </li>
           <li>
-            <Link className="text-base font-normal uppercase" href="#" onClick={closeMobileMenu}>
+            <Link href="/#contact" className="text-base font-normal uppercase"  onClick={closeMobileMenu}>
               Aloqa
             </Link>
           </li>

@@ -109,6 +109,7 @@ export default function Home() {
 
       {/* Services Section */}
       <section
+      id="service"
         className="bg-[#FFFFFF1A] pb-14 pt-26"
         style={{
           backgroundImage: "url(/img/backgrounds/servise-bacround.png)",
@@ -191,7 +192,7 @@ export default function Home() {
       </section>
 
       {/* Partners Section */}
-      < section className="md:pt-42 pt-25 md:pb-43 pb-20" >
+      < section id="partners" className="md:pt-42 pt-25 md:pb-43 pb-20" >
         <div className="max-w-[1420px] mx-auto px-5">
           <div className="flex flex-wrap items-center justify-between">
             <div className="lg:text-left text-center lg:mb-0 mb-10">

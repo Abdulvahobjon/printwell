@@ -1,5 +1,39 @@
 @import "tailwindcss";
+
+
 /* Swiper styles */
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* globals.css */
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../public/fonts/HelveticaNeueBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../public/fonts/HelveticaNeueLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../public/fonts/HelveticaNeueUltraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
+body{
+  font-family: "Helvetica Neue" !important;
+}
+
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {

@@ -6,6 +6,7 @@ import Header from "@/components/header"
 import ContactModal from "@/components/contact-modal"
 import VideoPlayer from "@/components/video-player"
 import PartnersSlider from "@/components/partners-slider"
+import Link from "next/link"
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -42,16 +43,16 @@ export default function Home() {
               >
                 Contact
               </button>
-              <button className="bg-black text-white border-1 border-white sm:max-w-[175px] w-full border-solid rounded-full px-13 py-4.5 text-base font-medium leading-[100%] hover:bg-gray-900 transition">
+              <Link href="/#about" className="bg-black text-white border-1 border-white sm:max-w-[175px] w-full border-solid rounded-full px-13 py-4.5 text-base font-medium leading-[100%] hover:bg-gray-900 transition">
                 About us
-              </button>
+              </Link>
             </div>
           </div>
         </section>
       </div>
 
       {/* About Section */}
-      <section className="pt-43 pb-18.75">
+      <section id="about" className="pt-43 pb-18.75">
         <div className="text-black px-5 mx-auto max-w-[1632px]">
           <div>
             <h2 className="mb-2 lg:text-[64px] md:text-6xl sm:text-5xl text-4xl font-bold leading-[120%]">
@@ -65,20 +66,9 @@ export default function Home() {
               xohlagan sifat turida va keng assortimentda mahsulotlarni taklif qilamiz
             </p>
           </div>
-        </div>
+          <VideoPlayer />
 
-        <VideoPlayer />
-      </section>
 
-      <section className="bg-[#FFFFFF1A] pb-14 pt-26"
-        style={{
-          backgroundImage: "url('/img/bacrounds/servise-bacround.png')",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="max-w-[1648px] mx-auto px-5">
           <div className="flex flex-wrap items-center justify-between mt-16">
             <div>
               <h2 className="lg:text-[150px] md:text-8xl sm:text-7xl text-6xl font-thin sm:leading-[186px] leading-[130px] md:mb-4 mb-0">
@@ -114,7 +104,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section >
+
+      </section>
 
       {/* Services Section */}
       <section
@@ -382,7 +373,7 @@ export default function Home() {
         </div>
       </footer >
 
-{/* wtf comment */}
+      {/* wtf comment */}
       <ContactModal isOpen={isModalOpen} onClose={closeModal} />
     </>
   )

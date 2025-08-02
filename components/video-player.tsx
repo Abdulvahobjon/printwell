@@ -13,9 +13,9 @@ export default function VideoPlayer() {
 
   if (isPlaying) {
     return (
-      <div className="relative w-full max-w-9xl mx-auto overflow-hidden rounded-2xl">
+      <div className="relative w-full max-w-9xl mx-auto overflow-hidden rounded-2xl h-50 md:h-145">
         <iframe
-          className="w-full aspect-video rounded-2xl"
+          className="w-full aspect-video rounded-2xl h-full"
           src="https://www.youtube.com/embed/clpPuh0QFxc?autoplay=1"
           title="YouTube video player"
           frameBorder="0"
@@ -27,13 +27,13 @@ export default function VideoPlayer() {
   }
 
   return (
-    <div className="relative w-full max-w-9xl mx-auto overflow-hidden rounded-2xl" id="video-container">
+    <div className="relative w-full max-w-9xl mx-auto overflow-hidden h-50 md:h-145 rounded-2xl" id="video-container">
       <Image
         src={videBg}
         alt="Printing video preview"
         width={1200}
         height={675}
-        className="w-full h-auto object-cover"
+        className="w-full object-cover h-50 md:h-145"
       />
       <button
         onClick={handlePlayClick}

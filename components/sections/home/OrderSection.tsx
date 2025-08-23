@@ -10,7 +10,7 @@ export default function OrderSection() {
         backgroundPosition: "center",
       }}
     >
-      <div className="max-w-[1420px] mx-auto px-5 md:pt-42 pt-25 pb-23">
+      <div className="max-w-[1420px] mx-auto px-5 md:pt-42 pt-0 pb-23">
         <div className="flex flex-wrap items-center justify-between">
           <div className="lg:text-left text-center lg:mb-0 mb-10">
             <h2 className="lg:text-[64px] md:text-5xl sm:text-4xl xs:text-3xl text-2xl font-bold max-w-[899px] leading-[120%] mb-2">

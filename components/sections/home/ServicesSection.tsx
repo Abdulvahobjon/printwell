@@ -12,7 +12,7 @@ export default function ServicesSection() {
     <>
       <section
         id="service"
-        className="bg-[#FFFFFF1A] pb-14 pt-26"
+        className="bg-[#FFFFFF1A] pb-14 pt-20 md:pt-26"
         style={{
           backgroundImage: "url(/img/backgrounds/servise-bacround.png)",
           backgroundSize: "cover",

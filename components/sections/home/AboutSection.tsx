@@ -3,8 +3,8 @@ import Union from "@/public/svg/Union"
 
 export default function AboutSection() {
   return (
-    <section id="about" className="pt-43 pb-18.75 relative">
-      <Union className="absolute right-0 top-9"/>
+    <section id="about" className="pt-20 md:pt-43 pb-18.75 relative">
+      <Union className="absolute right-0 top-9 max-lg:hidden"/>
       <div className="text-black px-5 mx-auto max-w-[1632px] relative z-20">
         <div>
           <h2 className="mb-2 lg:text-[64px] md:text-6xl sm:text-5xl text-4xl font-bold leading-[120%]">
@@ -19,9 +19,9 @@ export default function AboutSection() {
           </p>
         </div>
         <VideoPlayer />
-        <div className="flex flex-wrap items-center justify-between mt-16">
+        <div className="flex flex-wrap items-center justify-between mt-10 md:mt-16 max-sm:flex-col max-sm:items-center max-sm:gap-5">
           <div>
-            <h2 className="lg:text-[150px] md:text-8xl sm:text-7xl text-6xl font-thin sm:leading-[186px] leading-[130px] md:mb-4 mb-0">
+            <h2 className="lg:text-[150px] md:text-8xl sm:text-7xl text-6xl font-thin sm:leading-[186px] leading-[130px] md:mb-4 mb-0 max-sm:text-center max-sm:leading-[100%] max-sm:mb-3">
               25+
             </h2>
             <p className="md:text-[32px] sm:text-[27px] xs:text-2xl text-xl font-light lg:leading-[32px] md:leading-[27px] sm:leading-[24px] leading-[20px]">
@@ -29,7 +29,7 @@ export default function AboutSection() {
             </p>
           </div>
           <div>
-            <h2 className="lg:text-[150px] md:text-8xl sm:text-7xl text-6xl font-thin sm:leading-[186px] leading-[130px] md:mb-4 mb-0">
+            <h2 className="lg:text-[150px] md:text-8xl sm:text-7xl text-6xl font-thin sm:leading-[186px] leading-[130px] md:mb-4 mb-0 max-sm:text-center max-sm:leading-[100%] max-sm:mb-3">
               150+
             </h2>
             <p className="md:text-[32px] sm:text-[27px] xs:text-2xl text-xl font-light lg:leading-[32px] md:leading-[27px] sm:leading-[24px] leading-[20px]">
@@ -37,7 +37,7 @@ export default function AboutSection() {
             </p>
           </div>
           <div>
-            <h2 className="lg:text-[150px] md:text-8xl sm:text-7xl text-6xl font-thin sm:leading-[186px] leading-[130px] md:mb-4 mb-0">
+            <h2 className="lg:text-[150px] md:text-8xl sm:text-7xl text-6xl font-thin sm:leading-[186px] leading-[130px] md:mb-4 mb-0 max-sm:text-center max-sm:leading-[100%] max-sm:mb-3">
               20k
             </h2>
             <p className="md:text-[32px] sm:text-[27px] xs:text-2xl text-xl font-light lg:leading-[32px] md:leading-[27px] sm:leading-[24px] leading-[20px]">
@@ -45,7 +45,7 @@ export default function AboutSection() {
             </p>
           </div>
           <div>
-            <h2 className="lg:text-[150px] md:text-8xl sm:text-7xl text-6xl font-thin sm:leading-[186px] leading-[130px] md:mb-4 mb-0">
+            <h2 className="lg:text-[150px] md:text-8xl sm:text-7xl text-6xl font-thin sm:leading-[186px] leading-[130px] md:mb-4 mb-0 max-sm:text-center max-sm:leading-[100%] max-sm:mb-3">
               250+
             </h2>
             <p className="md:text-[32px] sm:text-[27px] xs:text-2xl text-xl font-light lg:leading-[32px] md:leading-[27px] sm:leading-[24px] leading-[20px]">

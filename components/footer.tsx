@@ -106,11 +106,11 @@ function Footer() {
 
                     <hr className="bg-white mt-25 opacity-20 h-[1px] border-none" />
 
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pt-6 gap-2">
-                        <span className="lg:text-xl sm:text-lg text-base sm:leading-[32px] leading-[30px] font-light text-[#899EB2]">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center w-full justify-between pt-6 gap-2">
+                        <p className="max-md:w-full max-md:text-center lg:text-xl sm:text-lg text-base sm:leading-[32px] leading-[30px] font-light text-[#899EB2]">
                             Privacy policy 2025
-                        </span>
-                        <span className="lg:text-xl sm:text-lg text-base sm:leading-[32px] leading-[30px] font-light text-[#899EB2]">
+                        </p>
+                        <span className="max-md:w-full max-md:text-center lg:text-xl sm:text-lg text-base sm:leading-[32px] leading-[30px] font-light text-[#899EB2]">
                             Designed with love!
                         </span>
                     </div>

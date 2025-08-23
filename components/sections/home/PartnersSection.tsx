@@ -3,7 +3,7 @@ import PartnersSlider from "@/components/partners-slider"
 
 export default function PartnersSection() {
   return (
-    <section id="partners" className="md:pt-42 pt-25 md:pb-43 pb-20">
+    <section id="partners" className="md:pt-42 pt-10 md:pb-43 pb-20">
       <div className="max-w-[1420px] mx-auto px-5">
         <div className="flex flex-wrap items-center justify-between">
           <div className="lg:text-left text-center lg:mb-0 mb-10">

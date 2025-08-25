@@ -36,7 +36,7 @@ export default function VideoPlayer() {
         className="w-full object-cover h-50 md:h-145"
       />
       <button
-        onClick={handlePlayClick}
+        // onClick={handlePlayClick}
         className="absolute inset-0 flex items-center justify-center hover:scale-105 transition-transform"
       >
         <svg

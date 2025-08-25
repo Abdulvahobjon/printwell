@@ -1,0 +1,6 @@
+export {default as HeroSection} from "./Hero"
+export {default as AboutSection} from "./AboutSection"
+export {default as MapSection} from "./MapSection"
+export {default as OrderSection} from "./OrderSection"
+export {default as PartnersSection} from "./PartnersSection"
+export {default as ServicesSection} from "./ServicesSection"
